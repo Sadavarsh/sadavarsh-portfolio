@@ -17,7 +17,7 @@ const Project = () => {
       img: project1,
       name: "MERN E-commerce Admin Dashboard App",
       github_link: "https://github.com/Sadavarsh/shopkart-mern-app",
-      live_link: "https://admin-frontend-p39t.onrender.com/dashboard",
+      live_link: "https://admin-frontend-p39t.onrender.com",
     },
     {
       img: project2,
