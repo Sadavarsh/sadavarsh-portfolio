@@ -1,10 +1,11 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import project1 from "../assets/images/project-1.JPG";
-import project2 from "../assets/images/project-2.JPG";
-import project3 from "../assets/images/project-3.JPG";
-import project4 from "../assets/images/project-4.JPG";
-import project5 from "../assets/images/project-5.JPG";
+import project1 from "../assets/images/project6.JPG";
+import project2 from "../assets/images/project-1.JPG";
+import project3 from "../assets/images/project-2.JPG";
+import project4 from "../assets/images/project-3.JPG";
+import project5 from "../assets/images/project-4.JPG";
+import project6 from "../assets/images/project-5.JPG";
 import "swiper/css";
 import "swiper/css/pagination";
 
@@ -12,32 +13,38 @@ import { Pagination, Autoplay } from "swiper/modules";
 
 const Project = () => {
   const projects = [
-    {
+   {
       img: project1,
+      name: "MERN E-commerce Admin Dashboard App",
+      github_link: "https://github.com/Sadavarsh/shopkart-mern-app",
+      live_link: "https://admin-frontend-p39t.onrender.com/dashboard",
+    },
+    {
+      img: project2,
       name: "MERN E-commerce App",
       github_link: "https://github.com/Sadavarsh/mern-ecommerce-app",
       live_link: "https://clumsy-pear-shrug.cyclic.app/",
     },
     {
-      img: project2,
+      img: project3,
       name: "Movie App",
       github_link: "https://github.com/Sadavarsh/react-movie-app",
       live_link: "https://react-movie-app-three-delta.vercel.app/",
     },
     {
-      img: project3,
+      img: project4,
       name: "Ecommerce App",
       github_link: "https://github.com/Sadavarsh/React-ecommerce-app",
       live_link: "https://react-ecommerce-app-tau.vercel.app/",
     },
     {
-      img: project4,
+      img: project5,
       name: "Video Sharing App",
       github_link: "https://github.com/Sadavarsh/youtube-clone",
       live_link: "https://youtube-clone-six-fawn.vercel.app/",
     },
     {
-      img: project5,
+      img: project6,
       name: "Ecommerce App",
       github_link: "https://github.com/Sadavarsh/js-ecommerce-website",
       live_link: "https://js-ecommerce-website.vercel.app/",
